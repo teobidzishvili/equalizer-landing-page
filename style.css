@@ -1,0 +1,257 @@
+body {
+    font-family: 'ibm-plex-sans', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin: 30px 0;
+}
+#mobile-pic {
+    position: absolute;
+    top: -250px;
+    right: 0px;
+    width: 380px;
+    height: 780px;
+    overflow: hidden;
+}
+#tablet-pic {
+    display: none;
+}
+#desktop-pic {
+    display: none;
+}
+#pattern1 {
+    display: none;
+}
+.logo {
+    margin: 6vw 4vw 10vw 4vw; 
+}
+.section {
+    margin: 0 4vw 160px 4vw;
+}
+.heading {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+}
+.bText {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+#mid-image {
+    position: relative;   
+}
+#illust {
+    width: 60vw;
+    position: absolute;
+    top: -100px;
+    left: 20vw;
+}
+#image {
+    width: 80vw;
+    background-color: #191826;
+    padding: 0 10vw;
+    border-radius: 12px;
+}
+#card {
+    background-color: #FA7453;
+    border-radius: 12px;
+    position: relative;
+    top: -50px;
+    padding: 13vw 10vw;
+    color: #FCFAF9;
+}
+#premium {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+}
+#pText {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+#price {
+    font-size: 65px;
+    font-weight: 700;
+}
+#frame {
+    position: relative;
+    top: -15px;
+    font-weight: 400;
+}
+#ios {
+    width: 80vw;
+    height: 60px;
+    background: #191826;
+    border-radius: 12px;
+    color: #FCFAF9;
+    font-size: 18px;
+    font-weight: 700;
+    border-width: 0;
+}
+#android {
+    width: 80vw;
+    height: 60px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    border-width: 0; 
+}
+.foot-section {
+    margin: 0 4vw;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+#social {
+    margin: 60px 0;
+}
+.fa-brands {
+    margin-right: 15px;
+    position: relative;
+}
+
+ @media only screen and (min-width: 768px) {
+    body {
+        margin: 0 4vw;
+    }
+    .logo {
+        margin: 15vw 4vw 6vw 4vw; 
+    }
+    #mobile-pic {
+        display: none;
+    }
+    #tablet-pic {
+        display: block;
+        position: absolute;
+        top: -250px;
+        right: 0;
+        overflow: hidden;
+    }
+    #pattern1 {
+        display: block;
+        position: absolute;
+        top: -40px;
+        right: 0;
+        width: 272px;
+        height: 473px;
+        overflow: hidden;
+    }
+    .section {
+        width: 514px;
+    }
+    .heading {
+        font-size: 64px;
+        line-height: 64px;
+    }
+    .b-Text {
+        width: 370px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #illust {
+        width: 30vw;
+        left: 15vw;
+    }
+    #image {
+        width: 40vw;
+        padding: 50px 26vw;
+
+    }
+    #card {
+        position: absolute;
+        top: 25vw;
+        right: 5vw;
+        width: 400px;
+        padding: 40px;
+    }
+    #ios, #android {
+        width: 400px;
+        height: 60px;
+    }
+    .foot-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+ }
+
+ @media only screen and (min-width: 1440px) {
+    body {
+        margin: 0 12vw;
+    }
+    .heading {
+        font-size: 88px;
+        line-height: 88px;
+    }
+    .section {
+        width: 1015px;
+    }
+    .bText {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    #premium {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    #pText {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    #mobile-pic {
+        display: none;
+    }
+    #tablet-pic {
+        display: none;
+    }
+    #pattern1 {
+        right: 0;
+        width: 312px;
+        height: 473px;
+        overflow: hidden;
+    }
+    #desktop-pic {
+        display: block;
+        position: absolute;
+        top: -250px;
+        right: 0;
+        overflow: hidden;
+    }
+    .logo {
+        margin: 6vw 4vw; 
+    }
+    #illust {
+        width: 315px;
+        left: 8vw;
+        top: -120px;
+    }
+    #card {
+        position: absolute;
+        right: 5vw;
+        width: 410px;
+        padding: 60px;
+    }
+    #ios:hover  {
+        background-color: #66E2DC;
+    }
+    #android:hover {
+        background-color: #FFB964;
+    }
+    #image {
+        width: 40vw;
+        padding: 0 18vw 50px 18vw;
+    }
+    #foot {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    #social {
+        margin-left: 15vw;
+    }
+    .fa-brands:hover {
+        color: #FA7453;
+    }
+ }
