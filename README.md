@@ -22,7 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/Screenshot-desktop.png) ![](./assets/Screenshot-mobile.png)
+![](./assets/Screenshot-mobile.png)
+![](./assets/Screenshot-desktop.png)
 
 ### Links
 
